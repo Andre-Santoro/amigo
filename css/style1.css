@@ -1,0 +1,51 @@
+html {
+    background: url(/assets/spike_1.png);
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+body {
+    
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.botao {
+    color: black;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    border-radius: 50px;
+    border-width: 3px;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5% auto;
+    padding: 10px;
+}
+
+.botao:hover {
+    transform: scale(1.2);
+}
+
+.temporizador {
+    color: var(--color-secondary);
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 12rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 3.2rem;
+    text-align: center;
+}
+
+.imagem {
+    display: flex;
+    height: 100%;
+    opacity: 0;
+    margin: auto;
+}
